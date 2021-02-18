@@ -42,7 +42,7 @@ export default class Form extends Component {
             value={this.state.name}
           />
 
-          <label>Miles:</label>
+          <label>M</label>
           <input
             type="text"
             name="message"
