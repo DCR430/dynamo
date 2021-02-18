@@ -36,7 +36,7 @@ export default class Form extends Component {
         <form onSubmit={this.handleSubmit}>
           <label>Date:</label>
           <input
-            type="date"
+            type="text"
             name="name"
             onChange={this.handleChange}
             value={this.state.name}
